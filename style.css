@@ -1,0 +1,22 @@
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    /*grid-row-gap:10px;
+    grid-column-gap:20px;*/
+    grid-gap:10px 20px;
+
+}
+.menu>div{
+    background-color: chocolate;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+     
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+ 
